@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("FondoCC2.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain; 
+    margin: 10px 10px;
+}
+
+h1 {
+    color: black;
+    font-family: "calibry";
+    text-align:center;
+    
+}
+
+.codigo-secreto {
+    width: 400px;
+    background: #2C2220;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.codigo-secreto .botons {
+    width: 100%;
+    background: #DBBA06;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
