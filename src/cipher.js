@@ -2,7 +2,7 @@ const cipher = {
   //   encode, decode
   encode (casillas, texto){
     if (!texto)
-      return "";
+      return " ";
       let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       casillas = (casillas % 26+26) % 26;
       return texto.replace(/[A-Z]/ig, c => letras[(letras.indexOf(c)+casillas)%26]);
@@ -11,7 +11,7 @@ const cipher = {
     if (!texto)
       return "";
       let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      casillas = (casillas % 26+26) % 26;
+      casillas = (casillas % 26-26) % 26;
       return texto.replace(/[A-Z]/ig, c => letras[(letras.indexOf(c)-casillas)%26]);
   }  
 };

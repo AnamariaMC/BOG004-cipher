@@ -13,21 +13,25 @@ body {
 }
 
 h1 {
-    color: black;
+    color: white;
     font-family: "calibry";
-    text-align:center;
-    
+    text-align: center;
+    background-color: #2C2220;
+     
+      
 }
 
 .codigo-secreto {
-    width: 400px;
+    width: 500px;
+    text-align: center;
     background: #2C2220;
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 40px;
     border-radius: 4px;
     font-family: "calibri";
-    color: white;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
     box-shadow: 7px 13px 37px #000;
 }
 
@@ -41,3 +45,15 @@ h1 {
     font-size: 16px;
 }
 
+.codigo-secreto .texto {
+    width: 100%;
+    height: 60px;
+    background:wheat;
+
+}
+
+.codigo-secreto .cantidad {
+    width: 70%;
+    background:wheat;
+
+}
