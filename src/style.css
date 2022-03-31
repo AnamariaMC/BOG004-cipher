@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("FondoCC2.png");
+    background-image: url('fondo.png');
     background-position: center;
     background-repeat: repeat;
     background-size: contain; 
@@ -17,6 +17,9 @@ h1 {
     font-family: "calibry";
     text-align: center;
     background-color: #2C2220;
+    margin: auto;
+    width: 500px;  
+    padding: 20px;  
         
 }
 
